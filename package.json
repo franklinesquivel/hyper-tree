@@ -1,4 +1,10 @@
 {
-"name": "@zelda_zamora/hyper-tree",
-"version": "1.0.0"
+  "name": "@zelda_zamora/hyper-tree",
+  "description": "",
+  "version": "1.0.0",
+  "contributors": [
+    "Franklin Esquivel <franklin.esquivel@outlook.com>"
+  ],
+  "license": "MIT",
+  "repository": "git@github.com:franklinesquivel/hyper-tree.git"
 }
