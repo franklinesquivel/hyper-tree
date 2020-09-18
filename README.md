@@ -8,6 +8,12 @@
 yarn install
 ```
 
+or simply:
+
+```console
+yarn
+```
+
 > Build project TS files
 
 ```console
