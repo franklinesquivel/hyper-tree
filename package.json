@@ -1,25 +1,39 @@
 {
   "name": "@zelda_zamora/hyper-tree",
   "description": "",
-  "version": "1.0.0",
+  "version": "1.2.0",
   "contributors": [
-    "Franklin Esquivel <franklin.esquivel@outlook.com>"
+    "Franklin Esquivel <franklin.esquivel@outlook.com>",
+    "Zelda Zamora <zeldazamora2@gmail.com>"
   ],
   "license": "MIT",
   "repository": "git@github.com:franklinesquivel/hyper-tree.git",
+  "main": "./build/index.js",
+  "bin": {
+    "hyper-tree": "./build/index.js"
+  },
   "scripts": {
+    "start": "node ./build/index.js",
     "build": "tsc",
     "dev": "tsc -w",
-    "start": "node ./build/index.js",
     "lint": "eslint . --ext .ts",
     "lint:fix": "eslint . --ext .ts --fix"
   },
   "devDependencies": {
-    "@types/node": "^14.10.3",
+    "@types/clear": "^0.1.0",
+    "@types/figlet": "^1.2.0",
+    "@types/node": "^14.11.1",
     "@typescript-eslint/eslint-plugin": "^4.1.1",
     "@typescript-eslint/parser": "^4.1.1",
     "eslint": "^7.9.0",
-    "nodemon": "^2.0.4",
+    "ts-node": "^9.0.0",
     "typescript": "^4.0.2"
+  },
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "clear": "^0.1.0",
+    "commander": "^6.1.0",
+    "figlet": "^1.5.0",
+    "path": "^0.12.7"
   }
 }
