@@ -1,5 +1,4 @@
 #!/usr/bin/env node 
-//nodemon --watch 'src/**/*.ts' --exec 'ts-node' src/index.ts
 import chalk from "chalk";
 import clear from "clear";
 import figlet from "figlet";
